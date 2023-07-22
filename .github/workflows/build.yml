@@ -4,8 +4,12 @@ name: Build to branch "build"
 on:
   push:
     branches:
-      - master # Remove this line if your primary branch is "main"
-      - main # Remove this line if your primary branch is "master"
+      - master
+      - main
+  workflow_dispatch:
+    branches:
+      - main
+      - master
 
 jobs:
   build:
