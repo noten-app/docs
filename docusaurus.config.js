@@ -10,7 +10,7 @@ const config = {
   tagline: "Academic Data Management made easy",
   favicon: "https://noten-app.de/favicon.ico",
 
-  url: "https://docs.noten-app.com",
+  url: "https://docs.noten-app.de",
   baseUrl: "/",
 
   organizationName: "noten-app",
