@@ -27,5 +27,5 @@ Also all examples will use the [Axios](https://www.npmjs.com/package/axios) pack
 
 On the Left in the Sidebar you can find the following categories:
 
-- [API > Endpoints](./endpoints) which contains all endpoints
-- [API > Tutorials](./tutorials) which contains tutorials for the API
+- [API > Endpoints](/category/endpoints/) which contains all endpoints
+- [API > Tutorials](/category/tutorials/) which contains tutorials for the API
