@@ -29,7 +29,7 @@ const config = {
 	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: 'en',
-		locales: ['en'],
+		locales: ['en', 'de'],
 	},
 
 	presets: [
@@ -70,6 +70,10 @@ const config = {
 					sidebarId: 'tutorialSidebar',
 					position: 'left',
 					label: 'Tutorial',
+				},
+				{
+					type: 'localeDropdown',
+					position: 'right',
 				},
 				{
 					href: 'https://github.com/noten-app',
