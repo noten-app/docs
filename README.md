@@ -1,3 +1,16 @@
+<a href="https://gitmoji.dev">
+  <img
+    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+    alt="Gitmoji"
+  />
+</a>
+<a href="https://github.com/noten-app/docs/actions/workflows/build.yml">
+  <img
+    src="https://github.com/noten-app/docs/actions/workflows/build.yml/badge.svg"
+    alt="GitHub Workflow Status"
+  />
+</a>
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
