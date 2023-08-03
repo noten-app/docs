@@ -67,3 +67,41 @@ axios
     console.error(error);
   });
 ```
+
+## Refreshing an Access Token
+
+The flow to refresh your Access Token also follows the [RFC6749-(OAuth2.0)-Standard (Section 6)](https://www.rfc-editor.org/rfc/rfc6749#section-6).
+
+### Authorization URL Example
+
+```
+https://api.noten-app.de/v1/auth/refresh?grant_type=refresh_token&refresh_token=lCVzojP2OGkggXm9NRFflppHXoSjWeKu
+```
+
+The `grant_type` parameter MUST be set to "refresh_token" as this request is used to refresh an Access Token. The `refresh_token` parameter is the Refresh Token you received when requesting an Access Token.
+
+The response to this will be the same as when requesting an Access Token. (You get a new Access Token and a new Refresh Token)!
+
+### Code Example
+
+```js
+var axios = require("axios").default;
+
+var options = {
+  method: "GET",
+  url: "https://api.noten-app.de/v1/auth/refresh",
+  params: {
+    grant_type: "refresh_token",
+    refresh_token: "lCVzojP2OGkggXm9NRFflppHXoSjWeKu",
+  },
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+```
