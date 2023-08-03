@@ -22,6 +22,12 @@ This will be the base for all endpoints except the ping endpoint.
 
 All code examples will be written in [NodeJS](https://nodejs.org) using the [Axios](https://www.npmjs.com/package/axios) package.
 
+# Authentication
+
+Before using any other Endpoints, you will need to authenticate with the authentication Endpoint to get an access token. This token will be used for all other endpoints.  
+The token will be valid for 1 hour. After that you will need to refresh your token using the refresh token endpoint.  
+More Information about the authentication can be found under [API > Endpoints > Authentication](/api/endpoints/authentication/).
+
 # Navigating the Docs
 
 On the Left in the Sidebar you can find the following categories:
