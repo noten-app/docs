@@ -20,8 +20,7 @@ This will be the base for all endpoints except the ping endpoint.
 
 # Code Examples
 
-All code examples will be written in NodeJS.
-Also all examples will use the [Axios](https://www.npmjs.com/package/axios) package.
+All code examples will be written in [NodeJS](https://nodejs.org) using the [Axios](https://www.npmjs.com/package/axios) package.
 
 # Navigating the Docs
 
