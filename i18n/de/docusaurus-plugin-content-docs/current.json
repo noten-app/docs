@@ -3,32 +3,16 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Application": {
-    "message": "Application",
-    "description": "The label for category Application in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Application.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Application in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.API": {
-    "message": "API",
-    "description": "The label for category API in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Endpoints": {
-    "message": "Endpoints",
+    "message": "Endpunkte",
     "description": "The label for category Endpoints in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutorials",
+    "message": "Anleitungen",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Changelogs": {
-    "message": "Changelogs",
+    "message": "Änderungen",
     "description": "The label for category Changelogs in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Changelogs.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Changelogs in sidebar tutorialSidebar"
   }
 }
