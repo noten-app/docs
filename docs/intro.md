@@ -4,6 +4,7 @@ title: Intro
 tags:
   - Introduction
   - Getting started
+slug: /
 ---
 
 # Introduction
