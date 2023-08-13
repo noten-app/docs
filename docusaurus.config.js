@@ -65,12 +65,6 @@ const config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-        {
           type: "localeDropdown",
           position: "right",
         },
