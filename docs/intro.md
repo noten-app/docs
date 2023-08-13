@@ -7,8 +7,7 @@ slug: /
 
 Thanks for reading the Help/Documentation for Noten-App!
 
-If you seek help for the Application itself, please check the Section [Application Help](#application-help).  
-If you seek help for the API, please check the Section [API Help](#api-help).
+If you seek help for the Application itself, you find it under [https://noten-app.de/help](https://noten-app.de/help).
 
 ## Application Help
 
