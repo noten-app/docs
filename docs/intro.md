@@ -1,16 +1,36 @@
 ---
 sidebar_position: 1
-slug: /
+title: Intro
+tags:
+  - Introduction
+  - Getting started
 ---
 
 # Introduction
 
 Thanks for reading the Help/Documentation for Noten-App!
 
-If you seek help for the Application itself, you find it under [https://noten-app.de/help](https://noten-app.de/help).
+Currently you are in the documentation for the API Version 1.0.0.
 
-## Application Help
+# Base-URL
 
-In the sidebar under the section "Application" you can find the following pages:
+The Base-Url for the API is: https://api.notenapp.de/v1
 
-### API Help
+This will be the base for all endpoints except the ping endpoint.
+
+# Code Examples
+
+All code examples will be written in [NodeJS](https://nodejs.org) using the [Axios](https://www.npmjs.com/package/axios) package.
+
+# Authentication
+
+Before using any other Endpoints, you will need to authenticate with the authentication Endpoint to get an access token. This token will be used for all other endpoints.  
+The token will be valid for 1 hour. After that you will need to refresh your token using the refresh token endpoint.  
+More Information about the authentication can be found under [API > Endpoints > Authentication](/api/endpoints/authentication/).
+
+# Navigating the Docs
+
+On the Left in the Sidebar you can find the following categories:
+
+- [API > Endpoints](/category/endpoints/) which contains all endpoints
+- [API > Tutorials](/category/tutorials/) which contains tutorials for the API
