@@ -107,3 +107,30 @@ axios
     console.error(error);
   });
 ```
+
+## Authentifizierung an anderen Endpunkten
+
+Um dich an anderen Enpunkten zu Authentifizieren musst du nur einen Authentication-Header mit dem access_token nutzen.
+
+### Code-Beispiel
+
+```js
+var axios = require("axios").default;
+
+var options = {
+  method: "GET",
+  url: "https://api.noten-app.de/v1/classes",
+  headers: {
+    Authorization: "Bearer DFw6zar4QF33Rb6jfp7cQj2UvcrAKgun",
+  },
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+```
