@@ -18,8 +18,6 @@ All Authentication Endpoints use the RFC6749-(OAuth2.0)-Standard.
 
 Currently only the [`Resource Owner Password Credentials Grant`](https://www.rfc-editor.org/rfc/rfc6749#section-4.3) is supported.
 
-# Endpoints and Methods
-
 ## Requesting an Access Token
 
 This Endpoint requires Parameters in `application/x-www-form-urlencoded` format.
@@ -93,6 +91,33 @@ var options = {
   params: {
     grant_type: "refresh_token",
     refresh_token: "lCVzojP2OGkggXm9NRFflppHXoSjWeKu",
+  },
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+```
+
+## Authenticating to other Endpoints
+
+To authenticate to any Endpoints just add a authentication Header containing the access_token.
+
+### Code Example
+
+```js
+var axios = require("axios").default;
+
+var options = {
+  method: "GET",
+  url: "https://api.noten-app.de/v1/classes",
+  headers: {
+    Authorization: "Bearer DFw6zar4QF33Rb6jfp7cQj2UvcrAKgun",
   },
 };
 
