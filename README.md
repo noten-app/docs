@@ -1,9 +1,3 @@
-<a href="https://gitmoji.dev">
-  <img
-    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
-    alt="Gitmoji"
-  />
-</a>
 <a href="https://github.com/noten-app/docs/actions/workflows/build.yml">
   <img
     src="https://github.com/noten-app/docs/actions/workflows/build.yml/badge.svg"
