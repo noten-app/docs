@@ -28,7 +28,7 @@ Alle Code-Beispiele werden in [NodeJS](https://nodejs.org) mit Hilfe des [Axios]
 
 Bevor du irgendeinen Endpunkt nutzen kannst, musst du dich mit dem Authentifizierungs-Endpunkt authentifizieren. Dieser wird mit einem Authentifizierungs-Token antworten, mit dem du dich bei anderen Endpunkten authentifizieren kannst.
 Der Authentifizierungs-Token ist standartmäßig 1 Stunde gültig - Danach muss der Token mit hilfe eines Erneuerungs-Tokens am passenden Endpunkt erneuert werden.
-Mehr Informationen über die Authentifizierung findest du unter [Endpunkte > Authentifizierung](/api/endpoints/authentication/).
+Mehr Informationen über die Authentifizierung findest du unter [Endpunkte > Authentifizierung](/endpoints/authentication/).
 
 # Durch die Dokumentation navigieren
 
