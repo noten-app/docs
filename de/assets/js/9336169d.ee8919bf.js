@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3553],{7239:e=>{e.exports=JSON.parse('{"label":"Latency Check","permalink":"/de/tags/latency-check","allTagsPath":"/de/tags","count":1,"items":[{"id":"endpoints/ping","title":"Ping","description":"","permalink":"/de/endpoints/ping"}]}')}}]);
