@@ -42,7 +42,32 @@ axios
 ### Antwort
 
 ```json
-{}
+[
+  {
+    "name": "Mathematik",
+    "color": "ffffff",
+    "user_id": "5negptbo-lt6v-9qos-ws1a-1s5qxe36k3op",
+    "id": 3,
+    "last_used": "2023-06-29T00:00:00.000Z",
+    "grade_k": 60,
+    "grade_m": 30,
+    "grade_t": "10",
+    "grade_s": 0,
+    "average": 2.16667
+  },
+  {
+    "name": "Englisch",
+    "color": "dddd00",
+    "user_id": "5negptbo-lt6v-9qos-ws1a-1s5qxe36k3op",
+    "id": 1,
+    "last_used": "2023-07-10T00:00:00.000Z",
+    "grade_k": 60,
+    "grade_m": 40,
+    "grade_t": "1exam",
+    "grade_s": 0,
+    "average": 2.69118
+  }
+]
 ```
 
 ## POST /classes/
@@ -82,7 +107,10 @@ axios
 ### Antwort
 
 ```json
-{}
+{
+  "success": true,
+  "id": 148
+}
 ```
 
 ## DELETE /classes/{:id}
@@ -113,7 +141,9 @@ axios
 ### Antwort
 
 ```json
-{}
+{
+  "success": true
+}
 ```
 
 ## PATCH /classes/{:id}
@@ -153,5 +183,7 @@ axios
 ### Antwort
 
 ```json
-{}
+{
+  "success": true
+}
 ```
