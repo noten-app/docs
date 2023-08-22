@@ -45,6 +45,8 @@ const config = {
               label: `Beta 🚧`,
             },
           },
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: false,
         theme: {
