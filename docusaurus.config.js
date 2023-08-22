@@ -65,6 +65,21 @@ const config = {
       },
       items: [
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [
+            {
+              type: 'html',
+              value: '<hr style="margin:0.25rem;">',
+            },
+            {
+              to: '/versions',
+              label: 'All versions'
+            },
+          ],
+          dropdownActiveClassDisabled: true,
+        },
+        {
           type: "localeDropdown",
           position: "right",
         },
