@@ -40,6 +40,11 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           editUrl: "https://github.com/noten-app/docs/tree/main",
+          versions: {
+            current: {
+              label: `Beta 🚧`,
+            },
+          },
         },
         blog: false,
         theme: {
