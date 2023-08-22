@@ -14,7 +14,7 @@ Here you can find the documentation for current released version.
         <b>1.0.0</b>
     </td>
     <td>
-        <a href="/1.0.0">Documentation</a>
+        <a href="/">Documentation</a>
     </td>
   </tr>
 </table>
