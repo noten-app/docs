@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3790],{5096:t=>{t.exports=JSON.parse('{"label":"Introduction","permalink":"/next/tags/introduction","allTagsPath":"/next/tags","count":1,"items":[{"id":"intro","title":"Intro","description":"Thanks for reading the Help/Documentation for Noten-App!","permalink":"/next/"}]}')}}]);

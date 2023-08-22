@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9537],{6946:e=>{e.exports=JSON.parse('{"label":"Einf\xfchrung","permalink":"/de/tags/einfuhrung","allTagsPath":"/de/tags","count":1,"items":[{"id":"version-1.0.0/intro","title":"Einf\xfchrung","description":"Danke, dass du die Dokumentation der Noten-App lie\xdft!","permalink":"/de/"}]}')}}]);

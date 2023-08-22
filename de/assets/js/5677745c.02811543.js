@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4606],{1979:e=>{e.exports=JSON.parse('{"label":"Authentication","permalink":"/de/next/tags/authentication","allTagsPath":"/de/next/tags","count":1,"items":[{"id":"endpoints/grades","title":"Grades","description":"","permalink":"/de/next/endpoints/grades"}]}')}}]);

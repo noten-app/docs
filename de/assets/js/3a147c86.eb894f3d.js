@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2135],{5168:e=>{e.exports=JSON.parse('{"label":"Workload","permalink":"/de/tags/workload","allTagsPath":"/de/tags","count":1,"items":[{"id":"endpoints/homework","title":"Homework","description":"","permalink":"/de/endpoints/homework"}]}')}}]);

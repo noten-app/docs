@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4875],{2663:e=>{e.exports=JSON.parse('{"title":"Endpunkte","slug":"/category/endpoints","permalink":"/de/next/category/endpoints","navigation":{"previous":{"title":"Einf\xfchrung","permalink":"/de/next/"},"next":{"title":"Authentifizierung","permalink":"/de/next/endpoints/authentication"}}}')}}]);
