@@ -34,5 +34,5 @@ Mehr Informationen über die Authentifizierung findest du unter [Endpunkte > Aut
 
 Links in der Seitenleiste findest du folgende Kategorien:
 
-- [Endpunkte](/category/endpoints/) beinhaltet die Dokumentationen der einzelnen Endpunkte
-- [Anleitungen](/category/tutorials/) beinhaltet Anleitungen für einzelne einfache Anwendungsfälle
+- [Endpunkte](./category/endpoints/) beinhaltet die Dokumentationen der einzelnen Endpunkte
+- [Anleitungen](./category/tutorials/) beinhaltet Anleitungen für einzelne einfache Anwendungsfälle

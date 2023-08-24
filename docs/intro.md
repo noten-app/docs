@@ -39,5 +39,5 @@ More Information about the authentication can be found under [API > Endpoints > 
 
 On the Left in the Sidebar you can find the following categories:
 
-- [API > Endpoints](/category/endpoints/) which contains all endpoints
-- [API > Tutorials](/category/tutorials/) which contains tutorials for the API
+- [API > Endpoints](./category/endpoints/) which contains all endpoints
+- [API > Tutorials](./category/tutorials/) which contains tutorials for the API
