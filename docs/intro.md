@@ -11,11 +11,17 @@ slug: /
 
 Thanks for reading the Help/Documentation for Noten-App!
 
-Currently you are in the documentation for the API Version 1.0.0.
+Currently you are in the documentation for the API Version 2.0.0.
+
+:::caution Beta
+
+This version is still in development and therefore bugs may occure!
+
+:::
 
 # Base-URL
 
-The Base-Url for the API is: https://api.noten-app.de/v1
+The Base-Url for the API is: https://api.noten-app.de/v2
 
 This will be the base for all endpoints except the ping endpoint.
 
