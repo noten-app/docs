@@ -36,4 +36,3 @@ Links in der Seitenleiste findest du folgende Kategorien:
 
 - [Endpunkte](/category/endpoints/) beinhaltet die Dokumentationen der einzelnen Endpunkte
 - [Anleitungen](/category/tutorials/) beinhaltet Anleitungen für einzelne einfache Anwendungsfälle
-- [Änderungen](/category/changelogs/) beinhaltet Dokumentationen aller Änderungen zwischen Versionen
