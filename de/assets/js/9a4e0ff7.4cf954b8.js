@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[774],{8921:e=>{e.exports=JSON.parse('{"label":"Notes","permalink":"/de/next/tags/notes","allTagsPath":"/de/next/tags","count":1,"items":[{"id":"endpoints/grades","title":"Grades","description":"Endpoints and Methods","permalink":"/de/next/endpoints/grades"}]}')}}]);
