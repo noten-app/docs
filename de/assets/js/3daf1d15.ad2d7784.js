@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[5578],{9950:e=>{e.exports=JSON.parse('{"label":"Endpunkt","permalink":"/de/next/tags/endpunkt","allTagsPath":"/de/next/tags","count":1,"items":[{"id":"endpoints/subjects","title":"F\xe4cher","description":"Endpunkte und Methoden","permalink":"/de/next/endpoints/subjects"}]}')}}]);

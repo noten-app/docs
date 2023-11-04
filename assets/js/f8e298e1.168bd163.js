@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3668],{5152:e=>{e.exports=JSON.parse('{"label":"Year","permalink":"/next/tags/year","allTagsPath":"/next/tags","count":1,"items":[{"id":"endpoints/years","title":"Years","description":"Year-Management is a new Feature introduced in Noten-App-2.4.0.","permalink":"/next/endpoints/years"}]}')}}]);
