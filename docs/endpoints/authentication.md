@@ -16,21 +16,42 @@ To use any Endpoints of this API you will first need to Authenticate.
 
 All Authentication Endpoints use the RFC6749-(OAuth2.0)-Standard.
 
-Currently only the [`Resource Owner Password Credentials Grant`](https://www.rfc-editor.org/rfc/rfc6749#section-4.3) is supported.
+In Version 1 of the API, users needed to authenticate using their password. This is not very secure because the user needs to trust the client (Your Application) and give it their password. So now we do not allow the [`Resource Owner Password Credentials Grant`](https://www.rfc-editor.org/rfc/rfc6749#section-4.3) anymore but rather supprt the [`Authorization Code Grant`](https://www.rfc-editor.org/rfc/rfc6749#section-4.1) and the [`Implicit Grant`](https://www.rfc-editor.org/rfc/rfc6749#section-4.2)!
 
-## Requesting an Access Token
+By using those Grant Types, the user gets redirected to Noten-App's Login Page and then authorizes your application which then is granted the access token.
+
+:::info Recommended Grant Type
+
+When using the Authorization Code Grant, the users Web-Browser generates a token with which your application can request the final Access Token whilst when using the Implicit Grant, the users Web-Browser requests the final Access Token ans relays that to your application.
+
+We recommend you use the Authorization Code Grant for applications where you need constant access to the users data. The Implicit Grant should only be used when a low number of requests need to be made like requesting a users ID one Time.
+
+This is due to the nature of Implicit Grant not allowing a refresh token to be generated, so you can only use the access token provided for the duration the access token is validated!
+
+:::
+
+## Authorization Code Grant
+
+### Requesting an Access Token
 
 This Endpoint requires Parameters in `application/x-www-form-urlencoded` format.
 
-### Authorization URL Example
+#### Authorization URL Example
 
 ```
-https://api.noten-app.de/v1/auth/token?grant_type=password&username=johndoe&password=A3ddj3w
+https://api.noten-app.de/v2/auth/authorize?response_type=code&client_id=s6bhdrkq&state=xyz&redirect_uri=
 ```
 
-The `grant_type` parameter MUST be set to "password" as this is currently the only supported Grant Type. The `username` parameter is the Username of the User you want to authenticate and the `password` parameter is the Password of the User you want to authenticate.
+The `grant_type` parameter MUST be set to "code" as this indicates you want to use the Authorization Code Grant Type. The `client_id` parameter is the ID you received when registering your application in the developer portal. The `redirect_uri` parameter is the URI you want to receive the auhtorization code under. The `state` parameter is a parameter defined by [`RFC6749 - Section 10.12`](https://www.rfc-editor.org/rfc/rfc6749#section-10.12).
 
-### Access Token Response
+:::info
+
+The `redirect_uri` can only be one of the URIs you registered within the developer-portal!
+Otherwise the user and you will be notified and the user cant authenticate to your application!
+
+:::
+
+#### Access Token Response
 
 A response could look something like:
 
@@ -45,7 +66,7 @@ A response could look something like:
 
 The `access_token` is the token you need to authenticate in any further requests, the `token_type` always is 'Bearer'. The `expires_in`-parameter describes for how many seconds the access_token is valid (3600 seconds = 1 hour). The `refresh_token` should be used to request a new access_token once the current one expired.
 
-### Code Example
+#### Code Example
 
 ```js
 const axios = require("axios").default;
