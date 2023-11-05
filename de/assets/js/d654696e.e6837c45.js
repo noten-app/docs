@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8862],{1440:e=>{e.exports=JSON.parse('{"title":"Other","slug":"/category/other","permalink":"/de/next/category/other","navigation":{"previous":{"title":"Ping","permalink":"/de/next/endpoints/ping"},"next":{"title":"Types & Objects","permalink":"/de/next/other/types-objects"}}}')}}]);
