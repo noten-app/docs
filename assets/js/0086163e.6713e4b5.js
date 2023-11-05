@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3026],{3988:e=>{e.exports=JSON.parse('{"label":"Types","permalink":"/next/tags/types","allTagsPath":"/next/tags","count":1,"items":[{"id":"other/types-objects","title":"Types & Objects","description":"Homework","permalink":"/next/other/types-objects"}]}')}}]);
