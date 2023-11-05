@@ -85,7 +85,7 @@ As Noten-App is mainly used in Germany, we have added this Value.
 | type      | String          | 1 Char     | The Type of the Grade            | `"k"`           |
 | note      | String          | < 64       | The Text of the Grade            | `"Second Exam"` |
 | date      | Date (ISO 8601) |            | The Date of the Grade            | `"2021-09-01"`  |
-| grade     | float           | 2 Decimals | The Value of the Grade           | `2.3`           |
+| grade     | float           | 2 Decimals | The Value of the Grade           | `2.31`          |
 | year      | String          | 8 Chars    | The Year the Grade is linked to  | `"a76ak8g8"`    |
 
 ### Values for `type`
