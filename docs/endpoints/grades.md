@@ -46,26 +46,14 @@ axios
 ### Response
 
 ```json
-[
-  {
-    "id": "jqhugsad",
-    "subject": "idsa7jka",
-    "given": "2023-05-12",
-    "deadline": "2023-05-10",
-    "text": "Read p. 114+115",
-    "type": "b",
-    "status": 1
-  },
-  {
-    "id": "sadiuaz1",
-    "subject": "oiasdu87",
-    "given": "2023-04-09",
-    "deadline": "2023-07-18",
-    "text": "p. 12-14",
-    "type": "b",
-    "status": 1
-  }
-]
+{
+  "id": "jqhugsad",
+  "subject": "idsa7jka",
+  "type": "k",
+  "note": "Second Exam",
+  "date": "2023-05-12",
+  "grade": 2.31
+}
 ```
 
 ## POST /grades/{:classId}
@@ -81,11 +69,10 @@ var options = {
   headers: { Authorization: "Bearer DFw6zar4QF33Rb6jfp7cQj2UvcrAKgun" },
   data: {
     subject: "idsa7jka",
-    given: "2023-07-22",
-    deadline: "2023-07-23",
-    text: "Read p. 118+119",
-    type: "w",
-    status: 1,
+    type: "k",
+    note: "Second Exam",
+    date: "2023-05-12",
+    grade: 2.31,
   },
 };
 
@@ -152,11 +139,11 @@ var options = {
   headers: { Authorization: "Bearer DFw6zar4QF33Rb6jfp7cQj2UvcrAKgun" },
   data: {
     subject: "idsa7jka",
-    given: "2023-07-22",
-    deadline: "2023-07-23",
-    text: "Read p. 120-125",
-    type: "w",
-    status: 1,
+    type: "k",
+    note: "Second Exam",
+    date: "2023-05-12",
+    grade: 2.31,
+    year: "a76ak8g8",
   },
 };
 
