@@ -100,7 +100,7 @@ We leave some space for future changes and past changes.
 | weight_o   | int             |          | The Weight of Oral Grades                       | `30`                                     |
 | weight_t   | String          |          | The Weight of Tests                             | `10`                                     |
 | weight_m   | int             |          | The Weight of the "other"-Category              | `15`                                     |
-| average    | float           |          | The Average of all Grades                       | `2.41`                                   |
+| average    | float           |          | The Average of all Grades                       | `2.21875 `                               |
 | year       | String          | 8 Chars  | The Year the Subject is linked to               | `"a76ak8g8"`                             |
 
 ## Users
