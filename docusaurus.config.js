@@ -146,6 +146,18 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Noten-App. Built with Docusaurus.`,
     },
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: true
+    },
+    announcementBar: {
+      id: 'eol-announcement',
+      content:
+        'Noten-App will be <b>discontinued on 31.12.2024</b>. Please read more about this <a href="https://blog.noten-app.de/noten-app-eol">here</a>.',
+      backgroundColor: '#f75d4e',
+      textColor: '#000000',
+      isCloseable: false,
+    },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
